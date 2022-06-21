@@ -11,7 +11,7 @@ void setup()
   Serial.begin(9600);
   Serial.println("setup is complete");
   
-  pinMode(4,INPUT);
+  pinMode(4,OUTPUT);
 }
 
 void loop()
